@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  color: darkblue;
+  text-align: center;
+}
+
+.description {
+  color: #444;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* Box Model  */
+
+.card {
+  width: 300px;
+  height: 200px;
+
+  /* Space inside the element */
+  padding: 20px;
+
+  /* Border around the element */
+  border: 3px solid black;
+
+  /* Space outside the element */
+  margin: 30px auto;
+
+  background-color: white;
+
+  /* Includes padding and border inside width/height */
+  box-sizing: border-box;
+}
+
+/*  More CSS Properties */
+
+.card-title {
+  color: darkgreen;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.button {
+  display: inline-block;
+
+  background-color: black;
+  color: white;
+
+  padding: 10px 20px;
+  margin-top: 10px;
+
+  border: 2px solid black;
+  text-decoration: none;
+}
