@@ -1,0 +1,50 @@
+.container {
+    display: grid;
+    grid-template-columns: 200px 1fr 2fr;
+    grid-template-rows: 200px 200px;
+    background-color: aquamarine;
+    gap: 20px;
+    margin-bottom: 1rem;
+}
+
+.container div {
+    border: 2px solid black;
+}
+
+/* .container2 {
+    display: grid;
+    background-color: aqua;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 150px 100px 1fr;
+    row-gap: 10px;
+    column-gap: 20px;
+}
+
+.container2 div {
+    border: 2px solid black;
+} */
+
+.container2 {
+    display: grid;
+    background-color: antiquewhite;
+    grid-template-columns: repeat(4, minmax(200px ,1fr));
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.container2 div {
+    border: 2px solid black;
+}
+
+#item1 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+#item2 {
+    grid-row: 1 / 3;
+}
+
+#item-1 {
+    grid-area: 1/1/3/2;
+}
